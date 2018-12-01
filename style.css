@@ -1,0 +1,109 @@
+body {
+    background-image: url(../assets/images/morocco-blue.png);
+    font-family: ''Prompt', sans-serif;
+
+  }
+  
+  #screen {
+    overflow: auto;
+  }
+  
+  #screen div {
+    float: left;
+  }
+  
+  #title {
+    width: 90%;
+    padding: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(168, 161, 161, 0.6);
+  }
+  
+  #rules {
+    width: 500px;
+    height: 450px;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: #eeeeee;
+    background-color: rgba(168, 161, 161, 0.6);
+  }
+  
+  #random {
+    position: absolute;
+    right: 600px;
+    margin-top: -490px;
+    width: 200px;
+    height: 150px;
+    padding: 4px;
+    text-align: center;
+    font-size: 60px;
+    color: purple;
+    background-color: rgba(168, 161, 161, 0.6);
+  }
+  
+  #wins {
+    position: absolute;
+    right: 386px;
+    margin-top: -490px;
+    height: 98px;
+    padding: 50px;
+    padding-top: 9px;
+   width: 110px;
+   text-align: center;
+    font-size: 22px;
+    background-color: #eeeeee;
+  }
+  
+   #scores {
+    position: absolute;
+    right: 377px;
+    margin-top: -255px;
+    width: 210px;
+    height: 100px;
+    padding: 4px;
+    color: rgb(233, 233, 233);
+    background-color: rgba(168, 161, 161, 0.6);
+    text-align: center;
+
+  }
+  
+  #score-total {
+    position: absolute;
+    right: 380px;
+    margin-top: -300px;
+    width: 210px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: rgb(248, 248, 248);
+    background-color: rgba(168, 161, 161, 0.6);
+    text-align: center;
+
+  }
+  
+  .crystals-button {
+    
+    display: inline-block;
+  }
+  
+  #crystals-img { 
+ position: absolute;
+right: 703px;
+width: 60px;
+margin-top: -320px;
+height: 80px;
+ cursor: pointer;
+ background-color: white;
+ border: solid;
+ border-color: #eeeeee;
+  }
+  
+  #score-number {
+  
+    font-size: 3vw;
+  }
+  
+  
+  
